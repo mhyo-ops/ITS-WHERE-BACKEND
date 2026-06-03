@@ -47,6 +47,8 @@ class Settings(BaseSettings):
     JWT_ALGORITHM: str = "HS256"
     JWT_EXPIRE_MINUTES: int = 60
 
+    SUPERADMIN_TOKEN: str = "ecohack_super_2026_odej"
+
     MAIL_USERNAME: str | None = None
     MAIL_PASSWORD: str | None = None
 
